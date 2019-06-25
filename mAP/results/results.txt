@@ -1,0 +1,11 @@
+# AP and precision/recall per class
+0.00% = plate AP  
+ Precision: ['0.00', '0.00']
+ Recall   :['0.00', '1.00']
+
+
+# mAP of all classes
+mAP = 0.00%
+
+# Number of ground-truth objects per class
+plate: 52

@@ -1,0 +1,33 @@
+training_data/plate/315.mfngmsbgf2inomimxhoe.png 198,418,306,456,0 772,274,831,294,0
+training_data/plate/316.GTspirit-POTD-AventadorHK-LLam.jpg 320,270,414,293,0
+training_data/plate/317.Toyota%20Alphard%20(1).jpg 292,520,351,565,0
+training_data/plate/319.funny-hk-license-plates-9-hk-slang1.jpg 257,283,431,399,0
+training_data/plate/319.img00371-20100128-1633.jpg 971,613,1152,679,0
+training_data/plate/320.074c9354-f7f0-40d7-b998-dc3df0437dfd_500.jpg 322,314,395,367,0
+training_data/plate/321.gfufh97p1gfz.jpg 2024,2807,2577,3042,0 359,2089,616,2158,0 838,1928,936,1981,0
+training_data/plate/323.IMG_6864.jpg 928,1140,1346,1253,0
+training_data/plate/324.IMG_20180904_122959.jpg 728,1851,882,1948,0 1371,2072,1754,2224,0 1739,1504,1803,1520,0 2006,1576,2071,1617,0
+training_data/plate/324.mini.jpg 373,416,448,444,0 33,379,81,401,0
+training_data/plate/327.06210312-story-image-2055_cover_640x426.jpg 228,288,318,314,0
+training_data/plate/327.hyyzske8ik1kgwpwpvsc.jpg 674,582,724,599,0
+training_data/plate/328.hk_nl1405_rear.jpg 50,281,94,323,0
+training_data/plate/329.hongkong12.jpg 146,91,430,230,0
+training_data/plate/330.IMG_5554.jpg 980,1422,1373,1519,0
+training_data/plate/331.56cc923b-63bc-45c8-a60c-8ee2287eec61_AD8C4FAE-C203-477A-8CD2-DC62EC91E108.jpg 1133,692,1187,758,0
+training_data/plate/331.HK_Taxicabs-e1462781080250.jpg 189,222,212,242,0 402,166,418,182,0 78,52,98,63,0 224,68,250,76,0
+training_data/plate/332.43489812_569929523468004_2647379586737526035_n.jpg 251,252,370,299,0
+training_data/plate/333.9643807469_62d75d036c_b.jpg 354,299,654,366,0
+training_data/plate/334.IMG_0108.JPG 994,1016,1228,1075,0 540,910,607,953,0
+training_data/plate/335.47965199876_9d7f62d81e_b.jpg 421,793,495,826,0
+training_data/plate/337.Hong_Kong_Island_36X_engineering_vehicle_07-04-2019.jpg 724,2043,1116,2188,0
+training_data/plate/338.a1Z5O7D_700b.jpg 48,284,115,328,0 158,578,317,636,0 269,1222,383,1286,0 218,2238,345,2273,0 345,2859,400,2888,0 307,3414,396,3486,0 257,4143,304,4179,0 169,4549,312,4601,0
+training_data/plate/338.stock-photo-hong-kong-china-march-hong-kong-red-taxi-or-red-cab-waiting-for-passenger-at-taxi-1110275618.jpg 648,538,838,666,0
+training_data/plate/339.9999105516_ba402aeb9e_b.jpg 358,213,727,307,0
+training_data/plate/339.hong-kong-may-1-2014-450w-520473745.jpg 340,130,367,146,0 223,187,282,202,0
+training_data/plate/340.depositphotos_154318004-stock-photo-a-taxi-car-parked-under.jpg 589,667,757,767,0
+training_data/plate/342.license-plate-hong-kong.jpg 134,380,381,506,0
+training_data/plate/343.64183787.jpg 649,538,712,557,0
+training_data/plate/PHOTO-2018-03-19-22-00-40.jpg 496,894,645,950,0
+training_data/plate/PHOTO-2018-03-19-22-00-41.jpg 240,912,333,1021,0
+training_data/plate/PHOTO-2018-03-19-22-00-42.jpg 550,950,687,1000,0
+training_data/plate/PHOTO-2018-03-19-22-00-43.jpg 512,834,612,865,0

@@ -1,0 +1,336 @@
+training_data/plate/1.IMG_2944-420x288.jpg 169,209,335,288,0
+training_data/plate/2.220px-Custom_number_plates.jpg 47,117,116,158,0
+training_data/plate/3.5cf9cad94714c5577919c266171d935c_L.jpg 289,304,615,477,0
+training_data/plate/3.China_cross-border_Guangdong-Hong_Kong_license_plate-%E7%B2%A4Z%E2%80%A2G969%E6%B8%AF.jpg 380,300,1319,749,0
+training_data/plate/4.220px-China_cross-border_Guangdong-Hong_Kong_license_plate-%E7%B2%A4Z%E2%80%A2G969%E6%B8%AF.jpg 52,40,179,101,0
+training_data/plate/4.220px-Custom_number_plates.jpg 48,117,116,158,0
+training_data/plate/5.13315468_932494323525979_4781298052005885796_n-800x600.jpg 336,255,482,338,0
+training_data/plate/6.300px-Hong_Kong_number_plates_2009.png 1,32,295,100,0 1,107,298,177,0
+training_data/plate/6.flickr_nicwn_personalize_license_plate_900.jpg 311,294,482,343,0
+training_data/plate/7.300px-Hong_Kong_number_plates_2009.png 1,33,298,101,0 1,108,299,178,0
+training_data/plate/7.12747182165_60aa612a3b_b-870x435.jpg 235,284,322,313,0 36,242,95,259,0
+training_data/plate/9.flickr_nicwn_personalize_license_plate_900.jpg 310,294,482,343,0
+training_data/plate/10.2cpv3vgurkw01.jpg 1452,1838,1892,1943,0
+training_data/plate/10.busy-bee-hong-kong-personalised-number-plate.jpg 164,278,224,318,0
+training_data/plate/11.13240644_10103931612049740_91135031861180287_n-225x300.jpg 38,87,174,124,0
+training_data/plate/11.china-hong-kong-lexus-car-feng-shui-number-plate-lucky-number-3133-A0HXAF.jpg 322,348,715,614,0
+training_data/plate/12.Thinker-Hong-Kong-car-licence-plate.jpg 217,323,329,354,0
+training_data/plate/14.I31U0uE-.jpeg 123,281,210,317,0
+training_data/plate/14.j3-private-tours-hong.jpg 356,147,444,190,0
+training_data/plate/15.getsetgo-number-plate-hong-kong.jpg 287,330,352,352,0
+training_data/plate/16.dh-transport-hong-kong-car-number-plate-with-hong-kong-and-china-registration-CEF405.jpg 241,229,1145,420,0
+training_data/plate/18.bd28071eb95f1891ed0e114b1281b224.jpg 359,797,623,938,0
+training_data/plate/19.funny-hk-license-plates-4-ironic1.png 241,111,307,127,0
+training_data/plate/20.110601-license-plate-oow.jpg 555,455,636,500,0
+training_data/plate/20.13330978_10153520410397120_3075918622676166131_n-e1464668714408-300x232.jpg 113,135,174,152,0
+training_data/plate/21.25license-jumbo.jpg 686,441,918,608,0
+training_data/plate/21.13256271_10154096151916955_4932576275116193540_n-300x226.jpg 96,107,204,129,0
+training_data/plate/22.dh-number-plate-car-hong-kong-personal-number-plate-hong-kong-and-EPWYC2.jpg 253,294,1084,515,0
+training_data/plate/22.posternew.jpg 302,536,382,570,0
+training_data/plate/23.dh-number-plate-car-hong-kong-bmw-x5-personal-number-plate-hong-kong-EPWTMY.jpg 330,353,540,437,0
+training_data/plate/23.hongkong5.jpg 120,70,488,277,0
+training_data/plate/24.Yes-Boss-Hong-Kong-car-number-plate.jpg 592,314,719,361,0
+training_data/plate/25.28313549498_e84bb31220_b.jpg 82,342,201,410,0
+training_data/plate/25.ve4u7um.png 158,236,259,266,0
+training_data/plate/26.12747718495_27c7eb17ba_b.jpg 429,338,687,402,0
+training_data/plate/26.oscar-c-hong-kong-car-number-plates.jpg 327,269,475,303,0
+training_data/plate/28.HK.jpg 372,421,603,484,0
+training_data/plate/28.Luxury-Vanity-Plates-Hong-Kong-Rice-Media-Cover-1024x682.jpg 275,430,477,477,0
+training_data/plate/31.taxi_popo_plate.jpg 258,339,284,353,0 569,448,667,474,0
+training_data/plate/32.2c5a5d05581f077ba3751e4bc24399dd--car-number-plates-license-plates.jpg 38,90,78,111,0
+training_data/plate/33.oreo-car-number-plates-hong-kong.jpg 201,336,332,372,0
+training_data/plate/33.seafood-car-licence-plate-hong-kong.jpg 255,318,284,338,0 514,464,613,504,0
+training_data/plate/34.hongkong8.jpg 81,74,499,200,0
+training_data/plate/36.201112221353.jpg 643,43,3136,790,0 569,551,3141,1240,0 523,1034,3253,2027,0
+training_data/plate/36.hk_fp317_front.jpg 358,337,491,375,0
+training_data/plate/37.hongkong5.jpg 118,72,486,279,0
+training_data/plate/38.P83NaXM.jpg 302,573,688,673,0
+training_data/plate/39.13244857_10154276479769047_3077642278225224446_n-300x225.jpg 112,105,187,121,0
+training_data/plate/39.batman-v-hong-kong-car-license-plate.jpg 244,382,329,405,0
+training_data/plate/40.maxresdefault.jpg 368,409,595,501,0
+training_data/plate/41.1ef332cd3aa3ad4450ddc4b83b4fb400--car-number-plates-hong-kong.jpg 45,88,76,100,0
+training_data/plate/42.guntank_by_christian_junker.jpg 565,366,699,408,0
+training_data/plate/42.taxi.jpg 328,194,365,214,0
+training_data/plate/43.fat-duck-licence-plate-hong-kong.jpg 256,353,402,394,0
+training_data/plate/44.5643386157_8159b259c4_z.jpg 102,249,195,281,0
+training_data/plate/44.luna-sea-hong-kong-license-number-plate.jpg 438,406,481,425,0 129,341,161,354,0
+training_data/plate/46.j3-private-tours-hong.jpg 403,214,470,264,0
+training_data/plate/48.16966715278_04e571644c_b.jpg 183,343,293,396,0
+training_data/plate/49.hole-in-1-hong-kong-licence-plates.jpg 476,339,629,417,0
+training_data/plate/53.13244857_10154276479769047_3077642278225224446_n-300x225.jpg 112,106,187,121,0
+training_data/plate/53.hongkong11.jpg 48,85,545,219,0
+training_data/plate/54.rdv-license-plates-hk-blog480.jpg 261,170,340,204,0
+training_data/plate/55.47686642851_35e72a61b4.jpg 150,199,256,244,0
+training_data/plate/55.hongkong6.jpg 117,106,461,225,0
+training_data/plate/56.ooh-car-hong-kong-personalized-car-license-plates.jpg 187,348,242,364,0
+training_data/plate/57.arGmOP5_700b.jpg 280,559,466,612,0
+training_data/plate/59.42099838702_432a552f5d_b.jpg 59,363,168,447,0
+training_data/plate/61.20170531_083542-800x467.jpg 406,327,540,400,0 187,182,224,203,0 77,177,100,190,0
+training_data/plate/61.scarface_marc_oh.jpg 151,282,454,344,0
+training_data/plate/62.D6LWYm1UUAIh9qB.jpg 775,625,916,700,0 152,467,203,483,0
+training_data/plate/64.593283d26db7bd181e01cf693601b8f8.jpg 355,550,554,629,0
+training_data/plate/66.boy-boy-personalised-license-plates-hong-kong.jpg 584,372,687,407,0 220,258,263,273,0 3,212,28,218,0
+training_data/plate/68.IMG_4649.jpg 1338,836,1684,1031,0
+training_data/plate/69.9649590.jpg 109,265,156,287,0
+training_data/plate/69.hongkong7.jpg 71,97,519,191,0
+training_data/plate/70.38e2813551eb3546de9a9003a2ea6958.jpg 822,833,1171,1023,0
+training_data/plate/72.6aPu3unl.png 453,191,541,232,0
+training_data/plate/72.13310340_10154096151106955_6065207595547694889_n-e1464669382134-300x254.jpg 86,106,134,142,0
+training_data/plate/73.hong-kong-license-plates-pikachu.png 470,406,610,470,0
+training_data/plate/73.maxresdefault.jpg 435,278,777,394,0
+training_data/plate/75.9386548.jpg 294,186,341,219,0
+training_data/plate/76.15181952308_7a1fcc2c1b_b.jpg 290,424,431,479,0 0,197,40,238,0 851,111,904,129,0
+training_data/plate/76.TB2oXO9XmBjpuFjSsplXXa5MVXa_!!822501931.jpg 30,31,299,86,0 28,85,302,143,0 25,141,303,201,0 22,195,309,259,0
+training_data/plate/78.80886255_46a08858bb.jpg 159,133,201,174,0
+training_data/plate/79.0ab16fd76e35e327f9e256921771cc02--car-number-plates-license-plates.jpg 184,84,211,95,0 1,38,10,44,0
+training_data/plate/79.funny-hk-license-plates-4-ironic1.png 116,36,152,47,0 242,111,306,128,0
+training_data/plate/82.j3-private-tours-hong.jpg 38,163,108,219,0
+training_data/plate/83.1493132867_aa32.jpg 204,212,286,266,0
+training_data/plate/86.small-cat-hong-kong-personalized-license-plates.jpg 419,307,464,323,0
+training_data/plate/88.OB-FJ428_0127pl_D_20100127045342.jpg 109,136,176,152,0
+training_data/plate/90.hong-kong-license-plate-on-a-mercedes-HR2TT8.jpg 402,619,896,728,0
+training_data/plate/90.late.jpg 69,245,210,306,0
+training_data/plate/91.mach-V-hong-kong-car-number-plate.jpg 194,350,266,370,0 529,242,551,256,0 767,238,788,249,0
+training_data/plate/95.13263802_10206574706827915_8215992777170322750_n-225x300.jpg 94,125,158,145,0
+training_data/plate/97.hongkong7.jpg 71,98,518,193,0
+training_data/plate/98.boy-boy-personalised-license-plates-hong-kong.jpg 583,368,684,409,0 218,258,262,272,0 2,212,29,218,0
+training_data/plate/98.ce0689132cc585ebd01bf1ff5b6dace3.jpg 689,669,921,736,0
+training_data/plate/100.A+Royal+Number+Plate.JPG 444,364,567,399,0 178,249,213,270,0
+training_data/plate/100.architec-personal-number-plate-hong-kong-china-R7N2JP.jpg 646,320,888,394,0
+training_data/plate/101.20180122_105524_edited.jpg 198,568,494,705,0
+training_data/plate/102.j3-private-tours-hong.jpg 324,102,423,155,0
+training_data/plate/103.1553246028_9519.jpg 232,261,300,279,0
+training_data/plate/104.10050404.jpg 140,235,228,263,0 419,147,440,168,0
+training_data/plate/104.lol.jpg 264,102,361,184,0
+training_data/plate/105.46016511922_68cff22fa5_b.jpg 311,428,436,478,0 857,232,901,256,0
+training_data/plate/105.px106_7406_7_0.jpg 564,642,747,694,0
+training_data/plate/106.50012922contentPhoto1.jpg 345,285,478,356,0
+training_data/plate/107.hongkonchinadip2.jpg 3,4,1088,237,0
+training_data/plate/108.Luxury-Vanity-Plates-Hong-Kong-Rice-Media-8-1024x683.jpg 844,483,905,515,0
+training_data/plate/109.Luxury-Vanity-Plates-Hong-Kong-Rice-Media-10-1024x683.jpg 308,400,381,422,0
+training_data/plate/110.hong_kong_license_plate.jpg 348,436,604,487,0
+training_data/plate/111.IMG_4497-1.jpg 480,423,784,592,0
+training_data/plate/111.npp__5_.jpg 174,60,631,297,0 19,336,759,491,0
+training_data/plate/112.1315627_b0aca35cce3afc55fc197488be744d73-692x360.jpg 177,230,207,246,0
+training_data/plate/112.f8f36981d3a3ead9125d392a404a5eb4--car-number-plates-license-plates.jpg 18,102,53,118,0
+training_data/plate/113.hong-kong-license-plate-of-a-rolls-royce-says-all-in-downtown-kowloon-AYHYGA.jpg 439,683,863,789,0
+training_data/plate/114.13697157_824330377701039_5812316530728296694_n.jpg 283,222,444,276,0
+training_data/plate/114.46569119242_e0a1c6f033_b.jpg 150,392,359,488,0
+training_data/plate/115.hongkongchinadip.jpg 4,1,875,186,0
+training_data/plate/116.toyota-_alpha_double_lisence_0.jpg 33,512,149,605,0
+training_data/plate/117.20121201_732985450159498_9107977265462431570_o.jpg 343,610,608,716,0
+training_data/plate/117.O1CN011rCYSF1muQNrXPm_!!1758005595.jpg 728,561,920,647,0
+training_data/plate/118.df2f3407458cac678a515e2f03ca38bf--car-number-plates-hong-kong.jpg 67,95,98,109,0
+training_data/plate/118.img00472-20101104-1914.jpg 597,462,676,519,0
+training_data/plate/119.img00377-20100203-1423.jpg 1106,673,1310,751,0
+training_data/plate/120.s-l225.jpg 24,22,212,66,0 25,64,212,105,0
+training_data/plate/121.558f1c3a-4bd4-11e9-8e02-95b31fc3f54a_image_hires_225815.JPG 778,465,837,484,0 187,177,235,193,0 853,116,867,126,0 383,683,432,714,0
+training_data/plate/122.IMG_0115.JPG 501,850,790,972,0
+training_data/plate/122.Luxury-Vanity-Plates-Hong-Kong-3-1024x683.jpg 333,440,691,520,0
+training_data/plate/123.blue-car-number-plate.jpg 134,154,177,185,0 341,395,443,450,0 425,130,440,141,0
+training_data/plate/123.hongkong4.jpg 100,61,434,222,0
+training_data/plate/124.12650394.jpg 169,224,261,247,0
+training_data/plate/125.12367462.jpg 83,213,168,253,0 385,80,418,92,0 136,58,150,68,0
+training_data/plate/125.IMG_5887.jpg 873,1259,1326,1355,0
+training_data/plate/126.b3a088e0da65a6fbff5ba91fb710aa00.jpg 60,846,217,1018,0
+training_data/plate/126.bentley-no-75-license.jpg 342,154,447,197,0
+training_data/plate/127.29698080292_cecffdfae4_b.jpg 133,392,228,450,0
+training_data/plate/127.IMG_5671.jpg 733,1045,982,1222,0
+training_data/plate/128.355621_1476259931.jpg 340,225,592,281,0 422,113,591,212,0 422,14,589,108,0 220,93,404,158,0
+training_data/plate/129.4897185647_a972c70124_b.jpg 33,249,428,460,0
+training_data/plate/130.7183320541_3d8b249436_c.jpg 264,297,350,320,0
+training_data/plate/130.Luxury-Vanity-Plates-Hong-Kong-Rice-Media-17-1024x683.jpg 379,375,621,428,0
+training_data/plate/131.A+Royal+Number+Plate.JPG 268,373,318,403,0 663,549,851,600,0
+training_data/plate/131.maxresdefault.jpg 924,355,1032,378,0
+training_data/plate/132.1493132867_aa32.jpg 204,210,285,268,0
+training_data/plate/132.Luxury-Vanity-Plates-Hong-Kong-Rice-Media-19-1024x683.jpg 325,489,583,553,0
+training_data/plate/133.276b1690d3ec84e46c65b40a3078c4c3.jpg 140,509,281,562,0
+training_data/plate/133.12747005.jpg 128,192,203,211,0
+training_data/plate/134.rolls-royce-at-sheung-wan-district-hong-kong-china-EB6GWH.jpg 679,646,1003,753,0
+training_data/plate/135.airkiss-personalised-hong-kong-licence-plates.jpg 220,390,394,435,0
+training_data/plate/136.1b4716a4-8815-11e9-a9bc-e8ed9093c066_image_hires_140412.JPG 274,206,343,248,0
+training_data/plate/136.Vanityplate.JPG 123,105,392,275,0
+training_data/plate/139.76708_170732639611816_7170983_n.jpg 455,127,519,162,0
+training_data/plate/139.30262503042_e7d0af0655_b.jpg 240,380,386,439,0
+training_data/plate/140.IMG_0050.JPG 233,675,472,770,0
+training_data/plate/142.melhp5jv5gf01.jpg 2178,1580,2664,1856,0
+training_data/plate/143.hk_hx893_front.jpg 60,258,135,301,0
+training_data/plate/143.IMG_1265-1024x1024.jpg 449,635,553,694,0
+training_data/plate/144.Finally+-+the+No.+1+Number+Plate.jpg 730,356,866,400,0
+training_data/plate/145.1d98f7de44e1e4b6c75c31d769777ca8.jpg 798,1001,1196,1094,0
+training_data/plate/145.img00478-20101004-2021.jpg 676,681,1319,838,0
+training_data/plate/146.macaobusin2008.jpg 779,1056,905,1136,0
+training_data/plate/147.9825181.jpg 170,250,234,268,0
+training_data/plate/148.Hong_Kong_Police_vehicle_AM6655.jpg 150,589,272,642,0
+training_data/plate/148.TB22k7DbOFTMKJjSZFAXXckJpXa_!!1888718154.jpg 432,179,603,262,0
+training_data/plate/149.Speedhunters_Jacky_Tse_Hong_Kong_Step4Stance_86-680x453.jpg 157,224,202,238,0 358,318,431,344,0
+training_data/plate/150.464292007c956811f1e399f5bf7254c2.jpg 194,682,429,833,0
+training_data/plate/152.hong-kong-license-plate-on-a-mercedes-HR2TT8.jpg 403,617,897,730,0
+training_data/plate/152.hongkong-taxi.jpg 58,145,67,157,0
+training_data/plate/153.00e5df7678acea49da721a6ce4afd567.jpg 187,396,301,472,0 365,919,643,1075,0
+training_data/plate/154.ea78389909a10ee9dee9cb8eb2b5513b.jpg 419,294,471,332,0 259,952,625,1169,0
+training_data/plate/155.IFI.jpg 225,561,388,630,0
+training_data/plate/156.j3-private-tours-hong.jpg 258,108,274,117,0 186,123,226,134,0
+training_data/plate/157.10033615.jpg 320,205,361,229,0
+training_data/plate/159.img00236-20091207-1424.jpg 542,542,644,600,0
+training_data/plate/160.px106_7406_7_0.jpeg 321,261,399,281,0
+training_data/plate/161.hongkong15.jpg 108,98,454,204,0
+training_data/plate/161.taxi.jpg 847,579,970,658,0 59,188,97,208,0
+training_data/plate/162.Hong_Kong_Wan_Chai_Oi_Kwan_Road_CC_Diplomatic_License_Plate_Benz_evening.jpg 434,684,641,793,0
+training_data/plate/162.Luxury-Vanity-Plates-Hong-Kong-2-1024x683.jpg 465,366,580,439,0
+training_data/plate/164.Taxi+-+Green+Dec14.jpg 351,171,391,201,0
+training_data/plate/165.f8f36981d3a3ead9125d392a404a5eb4--car-number-plates-license-plates.jpg 18,101,54,118,0
+training_data/plate/165.WTF-License-Plates-1.jpg 275,240,458,279,0
+training_data/plate/167.12718059.jpg 230,163,312,184,0
+training_data/plate/167.45774919285_19975f7d7a_b.jpg 40,468,135,553,0
+training_data/plate/168.img_0181.jpg 966,2222,1307,2333,0
+training_data/plate/169.IMG_8178_b.jpg 507,1259,905,1355,0
+training_data/plate/169.j3-private-tours-hong.jpg 174,201,222,234,0
+training_data/plate/170.9770784344_808254355e_b.jpg 356,315,615,375,0
+training_data/plate/172.funny-hk-license-plates-9-hk-slang1.jpg 259,283,434,402,0
+training_data/plate/173.857d31a86e14d206d3cb6845f05d9ed2.jpg 1282,534,1672,654,0
+training_data/plate/174.dual-numberplates-for-hong-kong-top-and-china-allowing-car-to-travel-DY0JHJ.jpg 149,314,1156,532,0
+training_data/plate/176.46423096892_5745d17c05_b.jpg 119,443,182,506,0
+training_data/plate/177.9823826.jpg 243,174,310,194,0
+training_data/plate/177.31185677937_2b50934d21.jpg 16,152,45,163,0 175,205,235,231,0
+training_data/plate/180.hotel_shuttle_bus_385_1024x576.jpg 643,524,692,548,0
+training_data/plate/180.plt.jpg 239,309,325,335,0
+training_data/plate/183.50026861contentPhoto1.jpg 276,965,423,1059,0
+training_data/plate/183.r30wxh003mt21.jpg 811,1093,1368,1217,0
+training_data/plate/185.2d2be5ac-70af-11e9-b91a-87f62b76a5ee_image_hires_203623.jpg 247,413,328,464,0 704,270,768,311,0
+training_data/plate/186.hqdefault.jpg 54,216,217,255,0
+training_data/plate/187.491629_404b3e86-11f0-4e27-9660-ef9f1acd24cd_thb.jpeg 267,860,446,915,0
+training_data/plate/188.HK_SSP_%E6%B7%B1%E6%B0%B4%E5%9F%97_Sham_Shui_Po_Kweilin_Street_Cheung_Sha_Wan_Road_Dec_2016_Lnv2_model_S_red_Tesla.jpg 649,364,726,415,0
+training_data/plate/189.12746995.jpg 167,193,245,213,0
+training_data/plate/189.IMG_20180804_210353.jpg 479,948,997,1079,0
+training_data/plate/190.Toyota_Estima_Hong_Kong%2C_Dual_Registration_China_cross-border_Guangdong-%E7%B2%A4Z_4201%E6%B8%AF.jpg 206,256,304,325,0
+training_data/plate/191.hongkong4.jpg 103,59,434,223,0
+training_data/plate/191.Screenshot-2019-02-17-at-2.16.13-PM.png 434,315,476,341,0 621,121,656,151,0
+training_data/plate/192.1991_mitsubishi_gto_red_photos__1_Hong-Kong-car-photographer-6.jpg 408,445,613,514,0
+training_data/plate/192.funny-Hong-Kong-license-plates.jpg 42,118,147,149,0 248,166,372,201,0 438,186,505,218,0
+training_data/plate/193.060619_taxi_scmp.jpg 607,461,759,544,0
+training_data/plate/193.maxresdefault.jpg 128,545,290,597,0 874,478,1009,559,0
+training_data/plate/195.Red-Taxi.jpg 282,154,405,230,0
+training_data/plate/196.live-it-up.jpg 388,329,457,367,0
+training_data/plate/197.IMG_20170520_203508.jpg 507,884,1164,1123,0
+training_data/plate/198.497131646_aeb211c427_b.jpg 284,226,760,341,0
+training_data/plate/198.12672916263_6cfdbf8642_b.jpg 182,353,306,434,0 215,42,280,67,0 61,27,86,48,0 899,25,957,43,0
+training_data/plate/199.hong-kong-decorated-for-a-wedding-car-CW95HN.jpg 359,448,957,598,0
+training_data/plate/200.2343b5f964c06a0b228a2dd323c0dfe7.jpg 808,602,1126,683,0
+training_data/plate/200.Luxury-Vanity-Plates-Hong-Kong-Rice-Media-7-1024x683.jpg 392,519,641,576,0 915,366,965,392,0
+training_data/plate/201.hong-kong-red-taxi.jpg 474,300,531,354,0
+training_data/plate/201.red-urban-taxis.jpg 48,161,71,186,0
+training_data/plate/202.12392301.jpg 153,169,247,191,0
+training_data/plate/202.hongkong10.jpg 82,88,516,189,0
+training_data/plate/203.IMG_1707.jpg 423,954,839,1230,0
+training_data/plate/204.50038007contentPhoto1.jpg 486,449,692,498,0
+training_data/plate/206.IMG_6171.jpg 854,1059,1594,1254,0
+training_data/plate/211.DSC_3858.JPG 1011,497,1327,691,0
+training_data/plate/212.new_image.jpg 286,195,461,363,0
+training_data/plate/213.street_traffic_hk-620x245.jpg 68,35,112,46,0 268,207,306,217,0 564,231,593,245,0 425,33,451,39,0 233,28,249,33,0
+training_data/plate/214.9602801.jpg 228,201,286,216,0
+training_data/plate/214.architec-personal-number-plate-hong-kong-china-R7N2JB.jpg 583,394,727,436,0 101,457,197,487,0
+training_data/plate/216.hk_mercedes_sedan.jpg 342,346,447,388,0 692,334,747,360,0
+training_data/plate/217.img00235-20091207-1424.jpg 529,555,672,590,0
+training_data/plate/217.jjv7kkt8xvq2ciirpnj9.jpg 6,184,50,220,0
+training_data/plate/218.12442410.jpg 187,229,242,248,0
+training_data/plate/219.https%3A%2F%2Fs3-ap-northeast-1.amazonaws.com%2Fpsh-ex-ftnikkei-3937bb4%2Fimages%2F1%2F9%2F5%2F4%2F674591-8-eng-GB%2F0810N-Uber-in-Hong-Kong-ASIA-VIEW.jpg 592,870,697,930,0 1333,843,1437,898,0
+training_data/plate/220.110630-license-plate-gf.jpg 303,563,454,619,0
+training_data/plate/220.TCiVmXH.jpg 2799,1883,3170,2138,0
+training_data/plate/221.59434000_412197606299995_4541402440350436793_n.jpg 465,524,604,602,0
+training_data/plate/221.Luxury-Vanity-Plates-Hong-Kong-1-1024x683.jpg 421,522,541,565,0
+training_data/plate/224.IMG_20180805_135748-e1533455252411.jpg 652,943,981,1054,0
+training_data/plate/225.25921437292_dfc2a3903d_b.jpg 457,355,661,449,0
+training_data/plate/225.j3-private-tours-hong.jpg 76,198,104,215,0
+training_data/plate/227.DSC_3755.JPG 552,536,1120,670,0
+training_data/plate/228.4cd038f82d7359bab479bac13e1bb3daf4c78454_hq.jpg 682,437,747,482,0
+training_data/plate/230.110330-license-plate-5.jpg 376,344,523,408,0
+training_data/plate/230.tumblr_lh4sv0oL6d1qh20r1o1_640.jpg 250,204,419,241,0
+training_data/plate/232.11046042.jpg 134,242,171,267,0
+training_data/plate/232.32692262276_4f0a0ce93d.jpg 92,208,190,253,0
+training_data/plate/235.hk_ue2122_front.jpg 440,305,538,352,0
+training_data/plate/236.j3-private-tours-hong.jpg 88,200,175,224,0
+training_data/plate/237.https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F39818597%2F78040982451%2F1%2Foriginal.jpg 275,392,358,449,0
+training_data/plate/238.TB1_XrqDASWBuNjSszdXXbeSpXa_!!0-item_pic.jpg 89,39,570,128,0 84,130,570,223,0 86,225,570,318,0 84,319,572,425,0 84,425,571,531,0 84,527,572,644,0
+training_data/plate/240.Hong-Kong-taxi.jpg 166,562,245,644,0
+training_data/plate/241.POWERPNT_2018-10-24_18-43-46.jpg 782,353,857,423,0
+training_data/plate/242.Porsche-911-993-Coupe-last-gen-of-air-cooled-Porsche_2.jpg 135,484,313,567,0
+training_data/plate/243.IMG_20180701_003229.jpg 2233,1207,3066,1600,0
+training_data/plate/244.149727537120170601_172933.jpg 1473,2231,1570,2310,0 1776,2323,1912,2428,0
+training_data/plate/245.9602775.jpg 216,211,253,233,0
+training_data/plate/245.hong-kong-taxi.jpg 157,355,199,390,0
+training_data/plate/246.Park.Ward.in.HKG.jpg 370,185,392,212,0
+training_data/plate/247.43317984431_09762a083e_b.jpg 133,361,247,439,0
+training_data/plate/247.blue-lantau-taxis.jpg 62,162,79,176,0 295,104,304,110,0
+training_data/plate/248.hk_fp317_rear.jpg 102,283,176,333,0
+training_data/plate/250.10.jpg 270,206,398,286,0
+training_data/plate/250.oQny6h8.jpg 365,2039,885,2409,0 774,1012,872,1052,0
+training_data/plate/251.img00427-20090807-1705.jpg 298,299,428,329,0
+training_data/plate/252.HK_Shatin_%E6%B2%99%E7%94%B0%E6%98%8E%E6%98%9F%E7%95%AB%E8%88%AB_Star_Seafood_Floating_Restaurant_outdoor_carpart_Lexus_BMW_520i_%E8%A9%A6%E8%BB%8A%E7%89%8C_T_License_plate.jpg 352,1656,500,1763,0
+training_data/plate/254.82850731-hong-kong-july-21-2017-toyota-comfort-released-in-1995-was-designed-for-use-as-a-taxicab-in-asia-rea.jpg 765,458,918,550,0
+training_data/plate/255.2018_02_14-canon-eos-5d_med.jpeg 555,367,636,418,0
+training_data/plate/256.235825795.jpg 834,408,987,519,0
+training_data/plate/257.20181007-40.jpg 368,471,462,510,0 811,239,891,261,0
+training_data/plate/258.in-hong-kong-bus-slideshow-e3df0ddee7.jpg 796,405,847,421,0 517,363,552,373,0 329,343,359,352,0 136,310,158,316,0
+training_data/plate/259.tumblr_moir8dN4cy1s74bw7o1_1280.jpg 593,841,814,966,0
+training_data/plate/260.50028429contentPhoto1.jpg 433,332,640,379,0
+training_data/plate/260.WTF-License-Plates-2.jpg 387,299,507,335,0
+training_data/plate/261.ferrari-458-spider-c990513112018143456_1.jpg 334,268,399,284,0 330,177,362,185,0
+training_data/plate/263.10432052_578982992257218_568014173_n-e1436243996416.jpg 229,321,420,361,0
+training_data/plate/263.four_w640.jpeg 170,531,257,611,0
+training_data/plate/264.491629_404b3e86-11f0-4e27-9660-ef9f1acd24cd_thb.jpeg 268,860,444,914,0
+training_data/plate/264.p8260598.jpg 1337,1716,1617,1845,0 1880,1281,2091,1350,0
+training_data/plate/265.j3-private-tours-hong.jpg 435,121,465,149,0
+training_data/plate/266.b5-sunny-bay-hzmb.jpg 211,341,257,359,0
+training_data/plate/267.ferrari-458-italia-with-ostentatious-personalised-number-plate-wan-chai-hong-kong-S26X69.jpg 144,513,1051,965,0
+training_data/plate/267.font1.png 218,333,657,504,0
+training_data/plate/268.2+number+plates.jpg 436,441,651,493,0
+training_data/plate/271.48023213102_3ac0a582be.jpg 40,207,128,250,0
+training_data/plate/271.O1CN01RQufHX1Q8RKHoDsrT_!!822501931.jpg 2,38,1288,423,0 48,377,1349,952,0
+training_data/plate/273.oyota-comfort-was-designed-use-as-taxicab-hong-kong-july-toyota-released-asia-rear-view-red-hong-kong-city-taxi-car-96814393.jpg 761,457,919,551,0
+training_data/plate/274.hk_hx893_rear.jpg 267,253,341,316,0
+training_data/plate/275.9584917.jpg 85,216,137,242,0
+training_data/plate/278.9af6b900-30ab-11e6-8a42-7c392cfa3225.jpg 44,82,650,439,0
+training_data/plate/278.Hong-Kong-SuperCars.jpg 411,353,477,382,0 168,342,190,359,0
+training_data/plate/279.IMG_1190.jpg 533,531,934,616,0
+training_data/plate/280.hong-kong-police-seizes-luxury-car-collection-after-arresting-street-racers-photo-gallery-89116_1.jpg 264,334,375,405,0 543,201,579,226,0
+training_data/plate/282.hongkong14.jpg 149,34,403,265,0
+training_data/plate/283.Green-Minibus.jpg 130,318,182,330,0 506,306,544,317,0
+training_data/plate/284.IMG_0503-300x225.jpg 75,73,212,104,0
+training_data/plate/285.stock-photo-hong-kong-china-march-hong-kong-red-taxi-or-red-cab-waiting-for-passenger-at-taxi-1067405927.jpg 834,412,985,517,0
+training_data/plate/286.green-new-territories-taxi.jpg 21,144,33,160,0
+training_data/plate/286.POWERPNT_2018-10-24_18-43-46.jpg 777,353,858,427,0
+training_data/plate/287.hong_kong_license_plate.jpg 348,433,603,489,0
+training_data/plate/288.Musso-iL320-powered-with-Mercedes-3199cc-engine-4-wheel-Drive_1.jpg 419,402,546,479,0
+training_data/plate/290.hong_kong_50th_anniversary_35.jpg 511,550,580,575,0
+training_data/plate/290.s-l225.jpg 15,32,203,133,0
+training_data/plate/294.9516251.jpg 205,185,308,216,0
+training_data/plate/294.WTF-License-Plates-6.jpg 251,210,407,246,0
+training_data/plate/297.8474058-My-rental-car-in-Hong-Kong-Lamborghini-I-wish-0.jpg 140,434,200,473,0
+training_data/plate/298.1.jpg 311,407,352,432,0 342,201,373,218,0 673,327,732,344,0
+training_data/plate/300.14460563043_74c44da8e9_b.jpg 197,274,250,314,0
+training_data/plate/300.night-car.jpg 1699,1151,1915,1281,0 296,723,380,748,0
+training_data/plate/301.hqdefault.jpg 193,270,309,296,0
+training_data/plate/303.eGarage.jpg 181,610,254,634,0 753,600,848,625,0 124,294,149,300,0
+training_data/plate/303.s-l300.jpg 32,5,281,60,0 22,55,287,118,0
+training_data/plate/305.IMG_6207.jpg 976,1154,1329,1346,0
+training_data/plate/306.depositphotos_35456105-stock-photo-red-taxi-in-the-street.jpg 312,484,381,526,0 892,392,927,416,0
+training_data/plate/307.83514896-hong-kong-july-10-2017-pink-porsche-964-carrera-2-cabriolet-classic-german-sports-car-stands-on-stre.jpg 677,539,857,635,0
+training_data/plate/307.13286511234_99d0e6f288_b.jpg 360,455,694,533,0
+training_data/plate/308.0953e2-QQ%E6%88%AA%E5%9B%BE20190220155155.png 220,420,356,451,0 754,423,901,455,0 1310,434,1465,471,0
+training_data/plate/308.pu76mlvqrv9vkhxogo2z.png 557,349,636,399,0
+training_data/plate/310.hong-kong-car.jpg 441,555,624,642,0
+training_data/plate/312.wx9sjy86dyzzhzn2cte5.jpg 214,594,265,619,0 766,611,823,634,0 1412,622,1472,646,0
+training_data/plate/PHOTO-2018-03-19-22-00-44.jpg 479,423,658,537,0
+training_data/plate/PHOTO-2018-03-19-22-00-45.jpg 652,548,773,621,0
+training_data/plate/PHOTO-2018-03-19-22-00-46.jpg 487,681,587,744,0
+training_data/plate/PHOTO-2018-03-19-22-00-47.jpg 208,704,294,765,0
+training_data/plate/PHOTO-2018-03-19-22-00-48.jpg 513,729,694,840,0
+training_data/plate/PHOTO-2018-03-19-22-00-49.jpg 63,1006,215,1140,0 562,887,679,983,0 904,746,1010,831,0
+training_data/plate/PHOTO-2018-03-19-22-00-50.jpg 238,748,342,858,0 654,829,815,987,0
+training_data/plate/PHOTO-2018-03-19-22-00-51.jpg 394,540,525,629,0
+training_data/plate/PHOTO-2018-03-19-22-00-52.jpg 205,576,244,587,0 534,696,624,721,0 959,612,977,625,0
+training_data/plate/PHOTO-2018-03-19-22-00-53.jpg 460,703,540,748,0 937,778,999,821,0
+training_data/plate/PHOTO-2018-03-19-22-00-54.jpg 413,723,556,837,0
+training_data/plate/PHOTO-2018-03-19-22-00-55.jpg 494,480,536,506,0
+training_data/plate/PHOTO-2018-03-19-22-00-56.jpg 342,535,417,555,0
