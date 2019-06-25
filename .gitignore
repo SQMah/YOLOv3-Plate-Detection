@@ -112,3 +112,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# TensorFlow
+.pb
+
+# Raw data
+to_crop/
+cropped/
+.mp4
+training_data/plate/
