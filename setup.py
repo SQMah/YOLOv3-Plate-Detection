@@ -7,6 +7,7 @@ The build/compilations setup
 import pip
 import logging
 import pkg_resources
+
 try:
     from setuptools import setup
 except ImportError:
@@ -32,28 +33,25 @@ except Exception:
     install_reqs = []
 
 setup(
-    name='mask-rcnn',
-    version='2.1',
-    url='https://github.com/matterport/Mask_RCNN',
-    author='Matterport',
-    author_email='waleed.abdulla@gmail.com',
-    license='MIT',
-    description='Mask R-CNN for object detection and instance segmentation',
-    packages=["mrcnn"],
+    name='YOLOv3-Plate-Detection',
+    version='1.0',
+    url='https://github.com/SQMah/YOLOv3-Plate-Detection',
+    author='SQMah',
+    author_email='shaoqianmah@gmail.com',
+    license='GPLv3',
+    description='A Python/TensorFlow implementation of YOLOv3 for license plate detection',
+    packages=["yolov3_plate"],
     install_requires=install_reqs,
     include_package_data=True,
     python_requires='>=3.4',
-    long_description="""This is an implementation of Mask R-CNN on Python 3, Keras, and TensorFlow. 
-The model generates bounding boxes and segmentation masks for each instance of an object in the image. 
-It's based on Feature Pyramid Network (FPN) and a ResNet101 backbone.""",
+    long_description="""A Python/TensorFlow implementation of YOLOv3 for license plate detection""",
     classifiers=[
-        "Development Status :: 5 - Production/Stable",
         "Environment :: Console",
         "Intended Audience :: Developers",
         "Intended Audience :: Information Technology",
         "Intended Audience :: Education",
         "Intended Audience :: Science/Research",
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: GPLv3",
         "Natural Language :: English",
         "Operating System :: OS Independent",
         "Topic :: Scientific/Engineering :: Artificial Intelligence",
@@ -64,5 +62,5 @@ It's based on Feature Pyramid Network (FPN) and a ResNet101 backbone.""",
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
     ],
-    keywords="image instance segmentation object detection mask rcnn r-cnn tensorflow keras",
+    keywords="image instance segmentation object detection tensorflow python plate yolo yolov3 license_plate car",
 )
