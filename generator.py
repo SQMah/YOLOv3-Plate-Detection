@@ -61,13 +61,13 @@ for index, one_class in enumerate(class_list):
                 regions = annotations[image]['regions']
                 boxes = []
                 for region in regions:
-                    x_coords = regions[region]['shape_attributes']['all_points_x']
-                    y_coords = regions[region]['shape_attributes']['all_points_y']
+                    x_coords = region['shape_attributes']['all_points_x']
+                    y_coords = region['shape_attributes']['all_points_y']
                     x_min, x_max = min(x_coords), max(x_coords)
                     y_min, y_max = min(y_coords), max(y_coords)
 
                     # Box format: x_min,y_min,x_max,y_max,class_id
-                    boxes.append('{},{},{},{},{}'.format(x_min, y_min, x_max, y_max, index))
+                    boxes.append('{},{},{},{},{}'.format(x_min, y_min, x_max, y_max, class_list.index(list(region['region_attributes'].keys())[0])))
 
                 # Row format: image_file_path box1 box2 ... boxN
                 row_string = new_image_path
