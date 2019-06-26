@@ -183,7 +183,7 @@ with tf.compat.v1.Session(graph = graph) as sess:
                 row_string += " "
 
                 # This is to allow checking if the file still exists later to see if the detection was positive or a false positive
-                row_string += '{},{},{},{},{}||{}'.format(bbox[0], bbox[1], bbox[2], bbox[3], round(float(bbox[5])), cropped_path)
+                row_string += '{},{},{},{},{}||{}'.format(round(float(bbox[0])), round(float(bbox[1])), round(float(bbox[2])), round(float(bbox[3])), round(float(bbox[5])), cropped_path)
 
             # Save detected boxes to training file
             # Check if was populated with box at all, could be an image that exists without a bounding box

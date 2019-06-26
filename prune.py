@@ -36,7 +36,7 @@ if os.path.exists(TRAIN_TXT):
 
             # Round class ids
             box_params = box.split(",")
-            box_params[-1] = str(round(float(box_params[-1])))
+            box_params = [str(round(float(param))) for param in box_params]
             box = ",".join(box_params)
 
             if len(split_box) > 1:
