@@ -17,14 +17,13 @@ import os
 TRAIN_TXT = "train.txt"
 
 if os.path.exists(TRAIN_TXT):
-    f = open(TRAIN_TXT, "r+")
+    f = open(TRAIN_TXT, "r")
     lines = f.readlines()
-    f.close()
 
     # Save as backup
     os.rename(TRAIN_TXT, TRAIN_TXT + ".bak")
 
-    f = open(TRAIN_TXT, "a")
+    f2 = open(TRAIN_TXT, "a")
 
     for line in lines:
         split_line = line.split()
@@ -32,18 +31,28 @@ if os.path.exists(TRAIN_TXT):
         box_string = ""
 
         for box in box_line:
-            split_box = boxes.split("||")
+            split_box = box.split("||")
             box, path = split_box[0], split_box[1]
-            if os.path.isfile(path):
-                box_string += " " + box
+
+            # Round class ids
+            box_params = box.split(",")
+            box_params[-1] = str(round(float(box_params[-1])))
+            box = ",".join(box_params)
+
+            if len(split_box) > 1:
+                if os.path.isfile(path):
+                    box_string += " " + box
+                else:
+                    print("{} not found! Removing...".format(path))
             else:
-                print("{} not found! Removing...".format(path))
+                # This has already been pruned
+                box_string += " " + box
 
         # Check if there were any boxes at all
         if box_string:
-            f.write(image + box_string)
+            f2.write(image + box_string + '\n')
 
-    f.close()
-    
+    f2.close()
+
 else:
     print("Train.txt not found at: /{}, please update the TRAIN_TXT variable.".format(TRAIN_TXT))
