@@ -127,3 +127,11 @@ train.txt
 train.txt
 train.txt
 train.txt
+*.data-00000-of-00001
+checkpoint/checkpoint
+*.index
+*.meta
+data/dataset/plate_test.txt
+data/dataset/plate_train.txt
+*.sq
+train.txt.bak
