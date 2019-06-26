@@ -4,9 +4,9 @@
 #   Copyright (C) 2019 * Ltd. All rights reserved.
 #
 #   Editor      : Atom
-#   File name   : image_batch.py
+#   File name   : scraper.py
 #   Author      : SQMah
-#   Created date: 2019-06-25 10:26:03
+#   Created date: 2019-06-25 15:36:53
 #   Description :
 #
 #================================================================
@@ -22,6 +22,7 @@ import urllib.request
 from bs4 import BeautifulSoup
 from io import BytesIO
 import json
+import generator
 
 return_elements = ["input/input_data:0", "pred_sbbox/concat_2:0", "pred_mbbox/concat_2:0", "pred_lbbox/concat_2:0"]
 pb_file         = "./yolov3_coco.pb"
@@ -81,7 +82,7 @@ if not urls_exists:
                     make = a.get_text()
                     break
 
-            image_urls.append(img_url.replace("/m", "/o"))
+            image_urls.append(img_url.replace("/m", "/o")) # Get the full sized images
             plates.append(plate_num)
             makes.append(make)
 
@@ -102,18 +103,24 @@ try:
 except:
     pass
 
+# Create the directory to store the original assets
+try:
+    os.mkdir(os.path.join(image_dir, 'orig'))
+    print ("Successfully created the orig directory")
+except OSError:
+    print ("Creation of the directory orig failed or orig already exists")
+
+
+# Create the train.txt file
+training = open('train.txt', 'a+')
+
 with tf.compat.v1.Session(graph = graph) as sess:
-    # Create the directory to store the
-    try:
-        os.mkdir(os.path.join(image_dir, 'orig'))
-        print ("Successfully created the orig directory")
-    except OSError:
-        print ("Creation of the directory orig failed or orig already exists")
 
     for url in url_dict['image_urls'][int(index_dict['index']):]:
         headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.90 Safari/537.36'}
 
         is_image = False
+
         # Check if it is an image
         try:
             img_stream = BytesIO(requests.get(url, headers = headers).content)
@@ -142,14 +149,41 @@ with tf.compat.v1.Session(graph = graph) as sess:
             bboxes = utils.postprocess_boxes(pred_bbox, original_image_size, input_size, 0.2, False)
             bboxes = utils.nms(bboxes, 0.45, method='nms')
             image = Image.fromarray(cv2.cvtColor(original_image, cv2.COLOR_RGB2BGR))
-            image.save(os.path.join(os.path.join(output_dir, 'orig'), str(index_dict['index']) + '.jpg'))
+
+            # Save originals
+            orig_path = os.path.join(os.path.join(output_dir, 'orig'), str(index_dict['index']) + '.jpg')
+            image.save(orig_path)
+            row_string = orig_path
+
             for bbox in bboxes:
+                """
+                bboxes: [x_min, y_min, x_max, y_max, probability, cls_id] format coordinates.
+                """
+
                 # Add some padding
                 cropped = image.crop((bbox[0] - 10, bbox[1] - 10, bbox[2] + 10, bbox[3] + 10))
-                cropped.save(os.path.join(output_dir, url_dict['plates'][int(index_dict['index'])] + '_{}.jpg'.format(image_counter)))
+                cropped_path = os.path.join(output_dir, url_dict['plates'][int(index_dict['index'])] + '_{}.jpg'.format(image_counter))
+                cropped.save(cropped_path)
                 image_counter += 1
+
+                row_string += " "
+
+                # This is to allow checking if the file still exists later to see if the detection was positive or a false positive
+                row_string += '{},{},{},{},{}||{}'.format(bbox[0], bbox[1], bbox[2], bbox[3], bbox[5], cropped_path))
+
+            # Save detected boxes to training file
+            # Check if was populated with box at all, could be an image that exists without a bounding box
+            if row_string != orig_path:
+                training.write(row_string + "\n")
 
             # Save current index
             index_dict['index'] = int(index_dict['index']) + 1
             with open(index_path, 'w') as outfile:
                 json.dump(index_dict, outfile)
+
+            # Save some memory
+            img_stream = None
+            original_image = None
+            image = None
+            image_data = None
+            return_tensors = None

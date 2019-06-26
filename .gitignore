@@ -121,3 +121,4 @@ to_crop/
 cropped/
 .mp4
 training_data/plate/
+*.mp4
