@@ -122,3 +122,4 @@ cropped/
 .mp4
 training_data/plate/
 *.mp4
+yolov3_coco.pb
