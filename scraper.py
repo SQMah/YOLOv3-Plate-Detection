@@ -30,7 +30,7 @@ num_classes     = 1
 input_size      = 960  # This HAS to be a multiple of 32, increasing this improves accuracy, but also slows it down
 graph           = tf.Graph()
 confidence      = 0.2
-only_save_one   = False
+only_save_one   = False  # Set this to True if you want only to crop the most confident bbox for the plate
 
 # Storage variables from web scraping
 image_urls = []
