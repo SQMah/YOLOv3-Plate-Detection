@@ -22,7 +22,6 @@ import urllib.request
 from bs4 import BeautifulSoup
 from io import BytesIO
 import json
-import generator
 
 return_elements = ["input/input_data:0", "pred_sbbox/concat_2:0", "pred_mbbox/concat_2:0", "pred_lbbox/concat_2:0"]
 pb_file         = "./yolov3_coco.pb"
@@ -105,7 +104,7 @@ except:
 
 # Create the directory to store the original assets
 try:
-    os.mkdir(os.path.join(image_dir, 'orig'))
+    os.mkdir(os.path.join(output_dir, 'orig'))
     print ("Successfully created the orig directory")
 except OSError:
     print ("Creation of the directory orig failed or orig already exists")
@@ -169,7 +168,7 @@ with tf.compat.v1.Session(graph = graph) as sess:
                 row_string += " "
 
                 # This is to allow checking if the file still exists later to see if the detection was positive or a false positive
-                row_string += '{},{},{},{},{}||{}'.format(bbox[0], bbox[1], bbox[2], bbox[3], bbox[5], cropped_path))
+                row_string += '{},{},{},{},{}||{}'.format(bbox[0], bbox[1], bbox[2], bbox[3], bbox[5], cropped_path)
 
             # Save detected boxes to training file
             # Check if was populated with box at all, could be an image that exists without a bounding box
