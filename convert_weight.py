@@ -27,8 +27,8 @@ preserve_org_names = ['Conv_6', 'Conv_14', 'Conv_22']
 
 org_weights_mess = []
 tf.Graph().as_default()
-load = tf.train.import_meta_graph(org_weights_path + '.meta')
-with tf.Session() as sess:
+load = tf.compat.v1.train.import_meta_graph(org_weights_path + '.meta')
+with tf.compat.v1.Session() as sess:
     load.restore(sess, org_weights_path)
     for var in tf.global_variables():
         var_name = var.op.name
@@ -83,7 +83,7 @@ with tf.name_scope('load_save'):
     for var in tf.global_variables():
         print("=> " + var.op.name)
 
-with tf.Session() as sess:
+with tf.compat.v1.Session() as sess:
     sess.run(tf.global_variables_initializer())
     print('=> Restoring weights from:\t %s' % org_weights_path)
     load.restore(sess, org_weights_path)
