@@ -123,3 +123,5 @@ cropped/
 training_data/plate/
 *.mp4
 yolov3_coco.pb
+train.txt
+train.txt

@@ -202,6 +202,6 @@ with tf.compat.v1.Session(graph = graph) as sess:
             return_tensors = None
 
             # Show some progress
-            print("Done with {}!".format(plate_num))
+            print("Done with {}! Index: {}".format(plate_num, index_dict['index']))
 
 training.close()
