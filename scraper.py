@@ -24,11 +24,13 @@ from io import BytesIO
 import json
 
 return_elements = ["input/input_data:0", "pred_sbbox/concat_2:0", "pred_mbbox/concat_2:0", "pred_lbbox/concat_2:0"]
-pb_file         = "./yolov3_coco.pb"
-output_dir      = "./cropped"
+pb_file         = "yolov3_coco.pb"
+output_dir      = "cropped"
 num_classes     = 1
 input_size      = 960  # This HAS to be a multiple of 32, increasing this improves accuracy, but also slows it down
 graph           = tf.Graph()
+confidence      = 0.2
+only_save_one   = False
 
 # Storage variables from web scraping
 image_urls = []
@@ -49,6 +51,17 @@ index_path = os.path.join(output_dir, 'index.json')
 Start scraping platesmania for the urls you need
 Modify the range and starting URL as needed
 '''
+
+# Populate this with rules for your own plates!
+def plate_rules(plate_num):
+    plate_num = plate_num.upper()
+    plate_num = plate_num.replace(" ", "")
+    plate_num = plate_num.replace("I", "1")
+
+    if "Q" in plate_num:
+        print("{} looks like an invalid plate!".format(plate_num))
+
+    return plate_num
 
 try:
     with open(url_path) as urls_file:
@@ -145,7 +158,7 @@ with tf.compat.v1.Session(graph = graph) as sess:
                                         np.reshape(pred_mbbox, (-1, 5 + num_classes)),
                                         np.reshape(pred_lbbox, (-1, 5 + num_classes))], axis=0)
 
-            bboxes = utils.postprocess_boxes(pred_bbox, original_image_size, input_size, 0.2, False)
+            bboxes = utils.postprocess_boxes(pred_bbox, original_image_size, input_size, confidence, only_save_one)
             bboxes = utils.nms(bboxes, 0.45, method='nms')
             image = Image.fromarray(cv2.cvtColor(original_image, cv2.COLOR_RGB2BGR))
 
@@ -154,6 +167,8 @@ with tf.compat.v1.Session(graph = graph) as sess:
             image.save(orig_path)
             row_string = orig_path
 
+            plate_num = plate_rules(url_dict['plates'][int(index_dict['index'])])
+
             for bbox in bboxes:
                 """
                 bboxes: [x_min, y_min, x_max, y_max, probability, cls_id] format coordinates.
@@ -161,7 +176,7 @@ with tf.compat.v1.Session(graph = graph) as sess:
 
                 # Add some padding
                 cropped = image.crop((bbox[0] - 10, bbox[1] - 10, bbox[2] + 10, bbox[3] + 10))
-                cropped_path = os.path.join(output_dir, url_dict['plates'][int(index_dict['index'])] + '_{}.jpg'.format(image_counter))
+                cropped_path = os.path.join(output_dir, plate_num + '_{}.jpg'.format(image_counter))
                 cropped.save(cropped_path)
                 image_counter += 1
 
@@ -172,8 +187,7 @@ with tf.compat.v1.Session(graph = graph) as sess:
 
             # Save detected boxes to training file
             # Check if was populated with box at all, could be an image that exists without a bounding box
-            if row_string != orig_path:
-                training.write(row_string + "\n")
+            training.write(row_string + "\n")
 
             # Save current index
             index_dict['index'] = int(index_dict['index']) + 1
@@ -186,3 +200,8 @@ with tf.compat.v1.Session(graph = graph) as sess:
             image = None
             image_data = None
             return_tensors = None
+
+            # Show some progress
+            print("Done with {}!".format(plate_num))
+
+training.close()
