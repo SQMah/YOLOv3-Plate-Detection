@@ -27,7 +27,7 @@ def convolutional(input_data, filters_shape, trainable, name, downsample=False, 
             strides = (1, 1, 1, 1)
             padding = "SAME"
 
-        weight = tf.get_variable(name='weight', dtype=tf.float32, trainable=True,
+        weight = tf.compat.v1.get_variable(name='weight', dtype=tf.float32, trainable=True,
                                  shape=filters_shape, initializer=tf.random_normal_initializer(stddev=0.01))
         conv = tf.nn.conv2d(input=input_data, filter=weight, strides=strides, padding=padding)
 
@@ -37,7 +37,7 @@ def convolutional(input_data, filters_shape, trainable, name, downsample=False, 
                                                  moving_mean_initializer=tf.zeros_initializer(),
                                                  moving_variance_initializer=tf.ones_initializer(), training=trainable)
         else:
-            bias = tf.get_variable(name='bias', shape=filters_shape[-1], trainable=True,
+            bias = tf.compat.v1.get_variable(name='bias', shape=filters_shape[-1], trainable=True,
                                    dtype=tf.float32, initializer=tf.constant_initializer(0.0))
             conv = tf.nn.bias_add(conv, bias)
 
@@ -76,7 +76,7 @@ def upsample(input_data, name, method="deconv"):
     if method == "resize":
         with tf.variable_scope(name):
             input_shape = tf.shape(input_data)
-            output = tf.image.resize_nearest_neighbor(input_data, (input_shape[1] * 2, input_shape[2] * 2))
+            output = tf.compat.v1.image.resize_nearest_neighbor(input_data, (input_shape[1] * 2, input_shape[2] * 2))
 
     if method == "deconv":
         # replace resize_nearest_neighbor with conv2d_transpose To support TensorRT optimization
@@ -85,6 +85,3 @@ def upsample(input_data, name, method="deconv"):
                                             strides=(2,2), kernel_initializer=tf.random_normal_initializer())
 
     return output
-
-
-
