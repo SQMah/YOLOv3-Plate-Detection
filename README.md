@@ -3,5 +3,5 @@ This is an implementation of YunYang1994's excellent TensorFlow implementation o
 
 This was tested on a dataset of approximately 400 images of Hong Kong license plates, with transfer learning with apretrained model trained on the COCO dataset, and 95% of the bounding boxees were correct, even with a confidence cut-off of 20%.
 
-It works pretty well in low light too:
-![Low light demonstration](assets/demo.jpg)
+It works pretty well in low light AND with skewed license plates too:
+![Low light demonstration](assets/low_light.jpg)![skew demonstration](assets/skew.jpg)
