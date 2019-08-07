@@ -5,5 +5,5 @@ This was tested on a dataset of approximately 400 images of Hong Kong license pl
 
 It works pretty well in low light AND with skewed license plates too:
 
-<img src="https://raw.githubusercontent.com/SQMah/YOLOv3-Plate-Detection/master/assets/low_light.jpg" height="200px"></img>
-<img src="https://raw.githubusercontent.com/SQMah/YOLOv3-Plate-Detection/master/assets/skew.jpg" height="200px"></img>
+<img src="https://raw.githubusercontent.com/SQMah/YOLOv3-Plate-Detection/master/assets/low_light.jpg" height="250px"></img>
+<img src="https://raw.githubusercontent.com/SQMah/YOLOv3-Plate-Detection/master/assets/skew.jpg" height="250px"></img>
